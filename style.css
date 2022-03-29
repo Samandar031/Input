@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 5px;
+}
+
+:root {
+  --text: #2a0a54;
+  --back: #e5e5f1;
+}
+
+body {
+  background-color: var(--back);
+}
+
+.container {
+  border: 1px solid var(--text);
+  margin: 20px auto;
+  height: 90vh;
+  width: 650px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 60px;
+  color: var(--text);
+}
+
+.input_navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.input {
+  border: none;
+  width: 80%;
+  height: 40px;
+  border: 2px solid var(--text);
+  background-color: var(--back);
+  padding: 5px;
+  color: var(--text);
+  font-size: 15px;
+}
+
+.add_task {
+  background-color: var(--text);
+  color: var(--back);
+  padding: 8px;
+}
